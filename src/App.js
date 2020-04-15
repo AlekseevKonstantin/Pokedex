@@ -22,10 +22,11 @@ const useStyles = makeStyles((theme) => ({
   content: {
     position: 'relative',
     width: '100%',
+    maxWidth: '1300px',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    flexGrow: 1,
+    alignSelf: 'center',
     padding: '30px 0'
   },
   pagination: {
